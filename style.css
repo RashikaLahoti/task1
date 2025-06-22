@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    height: 100%;
+}
+#nav{
+    display: flex;
+    width: 40%;
+    background-color: #e3e3e3;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+#lnav{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#rnav{
+    display: flex;
+    gap: 10px;
+}
+#rnav button{
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 10px;
+    font-weight: 575;
+    font-size: 14px;
+}
+#rnav i{
+    font-size: 18px;
+}
+#rnav #first{
+    background-color: black;
+    color: #fff;
+}
+
+#circles{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    border-radius: 50%;
+    margin: 30px 0px;
+    
+}
+
+#one{
+    width: 85px;
+    height:85px;
+    border-radius: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1683121771856-3c3964975777?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: cover;
+}
+#two{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid white;
+}
+#three{
+    width: 85px;
+    height:85px;
+    border-radius: 50%;
+    background-image: url(man2.jpg);
+    background-position: top;
+    background-size: cover;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text h3 span{
+    color: blue;
+}
+#text h1 span{
+    color: #dbdada;
+}
+#text h1{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+}
+#btn{
+    display: flex;
+    margin-top: 10px;
+}
+#btn button{
+    border: none;
+    border-radius: 100px;
+}
+#btn button:nth-child(1){
+    background-color: blue;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+#btn button:nth-child(2){
+    background-color: #000;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+#image{
+    margin: 35px 0px;
+    padding: 10px;
+}
+#image img{
+    width: 100%;
+}
+#upline{
+    height: 1px;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+#center{
+    display: flex;
+}
+#cline{
+    width: 1px;
+    background-color: #e3e3e3;
+}
+#lcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 40px;
+
+}
+#aboutus h3{
+    color: blue;
+    font-size: 20px;
+    letter-spacing: -0.8px;
+    margin-bottom: 15px;
+}
+#aboutus h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+#aboutus h1 span{
+    color: #e3e3e3;
+}
+#equivalent #plug{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+#equivalent #plug i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    font-size: 22px;
+    color: #fff;
+}
+#equivalent p{
+    font-size: 18px;
+    font-weight: 700;
+}
+#rcenter {
+    width: 50%;
+    padding: 40px;
+}
+#rcenter p{
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+#rcenter h1{
+    font-size: 250px;
+    font-weight: 400;
+}
+#rcenter h1 span{
+    color: blue;
+}
+#cards{
+    display: flex;
+}
+#lcard{
+    height: 200px;
+    width: 280px;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    margin-left: 20px;
+}
+#lcard p{
+    font-size: 16px;
+}
+#rcard{
+    height: 130px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    align-self: flex-end;
+}
+#rcard h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#rcard p{
+    font-size: 14px ;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#sidetext p{
+    writing-mode: sideways-lr;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+#endline{
+    height: 1px;
+    width: 100%;
+    background-color: #e3e3e3;
+    margin-bottom: 10px;
+}
+#bottomlines{
+    height: 20px;
+    width: 100%;
+    background: repeating-linear-gradient(to right, #fff 0px, #ffffff 2px, transparent 2px, transparent 4px),
+    linear-gradient(to right, #8e98d9 0%, #fff 100%);
+}
+#cfooter{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+#downline{
+    height: 1px;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+#savingcalculator{
+    display: flex;
+    padding: 50px 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#savingcalculator #text h2{
+    font-size: 44px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+#savingcalculator #icon button{
+    border: none;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-size: 24px;
+}
+
+#eline{
+    height: 1px;
+    width: 100%;
+    background-color: #dadada;
+}
+#details{
+    display: flex;
+    padding: 0px 40px;
+}
+#details #oneline, #details #twoline{
+    width: 1px;
+    background-color: #dadada;
+}
+#details #ldetail{
+    display: flex;
+    width: 60%;
+}
+#details #ldetail #line1, #details #ldetail #line2{
+    width: 1px;
+    background-image: repeating-linear-gradient(to bottom, #dadada 0, transparent 6px, transparent 8px);
+}
+#details #property ,#currentshades, #roofold{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    letter-spacing: -1px;
+}
+.top button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+.top button i{
+    color: blue;
+}
+.circle{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border: 1.5px dashed #dadada;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.circle h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: -1px;
+}
+.circle .circlebtn button{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: #000;
+    border-radius: 100px;
+    padding: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+.circle .circlebtn span{
+    position: absolute;
+    top: 90%;
+    left: 57%;
+    width: 14px;
+    height: 14px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.circle .circlebtn1 button{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+.circle .circlebtn1 span{
+    position: absolute;
+    top: 90%;
+    left: 57%;
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#rdetail{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+#rdetail h2{
+    width: 80%;
+    font-size: 34px;
+    letter-spacing: -0.6px;
+}
+#rdetail #btns{
+    display: flex;
+}
+#rdetail #btns button{
+    border: none;
+    border-radius: 100px;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+}
+#rdetail #btns button:nth-child(1){
+    background-color: blue;
+}
+#rdetail #btns button:nth-child(2){
+    background-color: #000;
+}
+#lastline{
+    height: 0.6px;
+    width: 100%;
+    background-color: #dadada;
+    margin-bottom: 30px;
+}
+
+#black{
+    background-color: rgb(6, 5, 5);
+}
+#customertestimonial h1{
+    color: white;
+    padding: 30px 30px;
+    font-size: 58px;
+    font-weight: 200;
+    line-height: 1;
+}
+#review{
+    display: flex;
+}
+#review #lreview{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#lreview #photo1 img{
+    width: 95%;
+    border-radius: 30px;
+}
+#lreview #lines h2{
+    color: white;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#rreview{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 35px;
+}
+#rreview #para{
+    color: white;
+    letter-spacing: 1px;
+    justify-content: space-between;
+}
+#rreview #para h4{
+    margin: 20px 0px;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+}
+#rreview #para p{
+    font-size: 16px;
+    line-height: 1.3;
+}
+#rreview #twobtn button{
+    border: none;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+#rreview #twobtn button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+#rreview #twobtn button:nth-child(2){
+    background-color: white;
+    color: black;
+}
+#rreview #bottomrreview{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#rreview #line{
+    height: 0.4px;
+    width: 100%;
+    background-color: #707070;
+}
+#rreview #man2{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: flex-end;
+}
+#rreview #man2 #dobtn{
+    display: flex;
+    align-items: center;
+}
+#rreview #man2 #dobtn button:nth-child(1){
+    background-color: blue;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+#rreview #man2 #dobtn button:nth-child(2){
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
+}
+#rreview #man2 #man2img img{
+    width: 250px;
+    border-radius: 30px;
+}
+#logos{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+#logos img{
+    width: 80%;
+}
+#end{
+    display: flex;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+#end #leftend {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    justify-content: space-between;
+}
+#end #leftend #head h1{
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+#end #leftend #tail p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#end #rightend{
+    display: flex;
+    width: 50%;
+    color: white;
+    text-align: left;
+}
+#end #rightend #Aboutus, #products, #blog, #contact{
+    width: 25%;
+}
+#end #rightend #Aboutus h4, #products h4, #blog h4, #contact h4{
+    margin: 15px 0px;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+}
+#lastline{
+    height: 0.4px;
+    width: 100%;
+    background-color: #818181;
+}
+#endnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#endnav #navleft p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+#endnav #navright button{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+} 
+
