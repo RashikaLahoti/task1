@@ -14,7 +14,7 @@ main{
 #nav{
     display: flex;
     width: 40%;
-    background-color: #e3e3e3;
+    background-color: #fcf6f6;
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px;
@@ -533,7 +533,7 @@ main{
     margin: 30px auto;
 }
 #logos img{
-    width: 80%;
+    width: 100%;
 }
 #end{
     display: flex;
